@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<html>
+    <head>
 <script type="text/javascript">
 //This entire block of script should be in a separate file, and included in each doc in which you want scanner capabilities
 
@@ -41,12 +44,6 @@ window.addEventListener("storage", function(event){
         }
     }
 }, false);
-
-</script>
-
-<html>
-    <head>
-        <script type="text/javascript">
             function processBarcode(b){
                 var d = document.createElement("div");
                 d.innerHTML = b;
